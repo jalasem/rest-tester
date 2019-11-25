@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# class: UserController
 class UsersController < ApplicationController
   def index
     # @user = [
@@ -23,12 +26,14 @@ class UsersController < ApplicationController
   end
 
   def update
+    @name params[:name]
   end
 
   def create
-    redirect_to users_path()
+    @name params[:name]
   end
 
   def destroy
+    @name params[:name]
   end
 end
