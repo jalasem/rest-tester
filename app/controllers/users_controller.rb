@@ -26,6 +26,7 @@ class UsersController < ApplicationController
   end
 
   def create
+    redirect_to users_path()
   end
 
   def destroy
