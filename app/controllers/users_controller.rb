@@ -6,6 +6,8 @@ class UsersController < ApplicationController
     # ]
 
     # render :json => @user
+    
+    @name = "I am the Index action!"
   end
 
   def new
