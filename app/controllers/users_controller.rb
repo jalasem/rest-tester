@@ -26,14 +26,14 @@ class UsersController < ApplicationController
   end
 
   def update
-    @name params[:name]
+    @name = params[:name]
   end
 
   def create
-    @name params[:name]
+    @name = params[:name]
   end
 
   def destroy
-    @name params[:name]
+    @name = params[:name]
   end
 end
